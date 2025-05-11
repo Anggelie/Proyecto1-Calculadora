@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #fff7e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculadora {
+  background: #957DAD;
+  padding: 20px;
+  border-radius: 10px;
+  width: 240px;
+  box-shadow: 0 0 10px #957DAD;
+}
+
+.display {
+  background: #2D2634;
+  color: #F4F2F7;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.boton {
+  padding: 20px;
+  font-size: 1.2rem;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background: #666;
+}
